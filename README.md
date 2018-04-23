@@ -128,3 +128,18 @@ Configure either dropbox or Github
 
 <a href="https://blogs.msdn.microsoft.com/africaapps/2013/06/11/deploying-windows-azure-websites-using-dropbox/">How to dropbox</a>
 
+## 5) Force reload from server
+This is to troubleshoot webapp not updating even after pushing new changes to server. This happens when chrome is loading from cache, a feature to save your mobile data.
+</br>
+### Method 1
+Always open in incognito</br><br>
+
+### Method 2
+In browser adress bar, enter this
+```
+javascript:location.reload(true)
+```
+
+### Method 3
+Clear cache by clearing browser history. Remember to tick the clear cache option. 
+
