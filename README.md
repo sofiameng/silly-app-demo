@@ -26,6 +26,19 @@ Search for `Autoplay policy` and change to No user gesture is required.
 
 ## 2) Code Snippets
 
+### Tip: Commenting out code
+Comment out a single line of code
+```
+// this line is a comment
+```
+
+Comment out a block of code
+```
+/* this
+block
+is commented*/
+```
+
 ### HTML Button
 Let's add a button! </br>
 Paste this code under /\*INSERT HTML BUTTON HERE\*/ in index.html
